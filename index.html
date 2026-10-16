@@ -1,0 +1,160 @@
+<!DOCTYPE html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%A9%B8%3C/text%3E%3C/svg%3E"><meta name="theme-color" content="#081c19"><title>OneDrop Blood Bank — কুমিল্লা জেলা দক্ষিণ</title>
+<style>
+:root{--bg:#081c19;--card:#0f2b27;--bd:#1d4a43;--tx:#e8f5f2;--mut:#8fb3ac;--ac:#5ec9b8;--c:#ff7f73;--hero:#12403a;box-sizing:border-box}
+@media(prefers-color-scheme:light){:root:not([data-theme=dark]){--bg:#f2fbf9;--card:#fff;--bd:#cfe6e3;--tx:#12302b;--mut:#4d6f69;--ac:#0e8a84;--hero:#d9f5f2}}
+*{box-sizing:border-box}body{margin:0;font-family:"Hind Siliguri","Noto Sans Bengali",system-ui,sans-serif;background:var(--bg);color:var(--tx);line-height:1.6;padding-top:env(safe-area-inset-top,0px);padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--bd);display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 14px}
+.logo{display:flex;align-items:center;gap:8px;font-weight:700;line-height:1.2}.logo small{display:block;color:var(--mut);font-weight:400;font-size:12px}.drop{width:26px;height:26px;background:var(--c);border-radius:50% 50% 50% 0;transform:rotate(-45deg);flex:none}
+nav.top{display:none;gap:4px}nav.top a,.pill{color:var(--tx);text-decoration:none;font-size:14px;padding:6px 12px;border-radius:99px;cursor:pointer;border:0;background:none;font-family:inherit}nav.top a.on{background:var(--hero);color:var(--ac)}.pill.reg{background:var(--ac);color:#06201c;font-weight:700}
+nav.bot{position:fixed;bottom:0;left:0;right:0;z-index:20;background:var(--bg);border-top:1px solid var(--bd);display:flex;justify-content:space-around;padding:6px 0 calc(6px + env(safe-area-inset-bottom,0px))}nav.bot a{color:var(--mut);text-decoration:none;font-size:12px;text-align:center;flex:1}nav.bot a b{display:block;font-size:20px}nav.bot a.on{color:var(--ac)}
+@media(min-width:900px){nav.top{display:flex}nav.bot{display:none}body{padding-bottom:0}}
+main{max-width:1000px;margin:auto;padding:14px}.v{display:none}.v.on{display:block}
+h2{margin:8px 0 4px}.sub{color:var(--mut);margin:0 0 14px;font-size:14px}h3{margin:22px 0 8px}
+.hero{position:relative;background:var(--hero);border-radius:16px;overflow:hidden;padding:22px 18px;border:1px solid var(--bd)}
+#slides{position:absolute;inset:0}#slides img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s}#slides img.on{opacity:.35}
+.hero>*:not(#slides){position:relative}.hero small{color:var(--ac)}.hero h1{margin:4px 0;font-size:clamp(26px,6vw,40px)}
+.btn{background:var(--ac);color:#06201c;border:0;border-radius:10px;padding:10px 18px;font:inherit;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}.btn.o{background:transparent;color:var(--ac);border:2px solid var(--ac)}.btn.c{background:var(--c);color:#2a0b07}.btn.x{background:#555;color:#fff}.btn.sm{padding:5px 12px;font-size:13px}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}.tile{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:8px 2px;text-align:center;color:var(--tx);font:inherit;cursor:pointer}.tile b{display:block;font-size:22px;color:var(--c)}.tile span{font-size:11px;color:var(--mut)}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);background:var(--card);border:1px solid var(--bd);border-radius:12px;margin:14px 0;text-align:center}.stats div{padding:12px 4px}.stats b{display:block;font-size:24px;color:var(--ac)}.stats span{font-size:12px;color:var(--mut)}
+.box{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px}.empty{color:var(--mut);text-align:center;padding:16px;border:1px dashed var(--bd);border-radius:12px;background:var(--card)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin-bottom:18px}.big .box{border:2px solid var(--ac)}
+.box img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;cursor:zoom-in}.ph{aspect-ratio:4/3;background:var(--hero);border-radius:8px;display:grid;place-items:center;font-size:40px}
+.bar{display:flex;align-items:center;gap:8px;margin:6px 0;font-size:13px}.bar b{width:34px}.bar i{flex:1;height:8px;background:var(--bd);border-radius:9px;overflow:hidden}.bar u{display:block;height:100%;background:var(--c)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{border:1px solid var(--bd);background:none;color:var(--tx);border-radius:99px;padding:5px 14px;font:inherit;cursor:pointer}.chip.on{background:var(--ac);color:#06201c}
+input,select,textarea{font:inherit;padding:10px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);width:100%;margin:4px 0}label{font-size:13px;color:var(--mut)}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px}.adm{border:2px dashed var(--c);padding:12px;border-radius:12px;margin:12px 0}.adm[hidden]{display:none}
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;place-items:center;z-index:50;padding:16px}#lb img{max-width:100%;max-height:85vh}#lb p{color:#fff;text-align:center}
+.sm{font-size:12px;color:var(--mut)}.tag{float:right;font-size:11px;color:var(--ac);border:1px solid var(--ac);border-radius:6px;padding:0 6px}footer{border-top:1px solid var(--bd);color:var(--mut);font-size:12px;padding:16px 14px;max-width:1000px;margin:auto}
+#entry{position:fixed;inset:0;z-index:100;background:linear-gradient(160deg,#052b26,#0e6e73);color:#fff;overflow:hidden;display:none}body.entry #entry{display:block}body.entry header,body.entry nav.bot,body.entry main,body.entry footer{display:none}
+#es img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s;transform:scale(1)}#es img.on{opacity:1;transform:scale(1.12);transition:opacity 1.2s,transform 9s linear}
+.eo{position:absolute;inset:0;background:linear-gradient(rgba(3,20,18,.55),transparent 35%,rgba(3,20,18,.92));display:flex;flex-direction:column;justify-content:space-between;padding:calc(20px + env(safe-area-inset-top,0px)) 22px calc(28px + env(safe-area-inset-bottom,0px))}
+.elogo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;backdrop-filter:blur(10px);background:rgba(255,255,255,.12);padding:8px 14px;border-radius:99px;align-self:flex-start}
+.ebot{max-width:560px}.ebot h1{font-size:clamp(30px,8vw,56px);line-height:1.2;margin:6px 0 18px;letter-spacing:-.5px}.ecap{display:inline-block;background:rgba(255,255,255,.15);backdrop-filter:blur(8px);padding:3px 12px;border-radius:99px;font-size:13px}
+.dots{display:flex;gap:6px;margin-bottom:18px}.dots i{height:4px;width:18px;border-radius:9px;background:rgba(255,255,255,.35)}.dots i.on{width:34px;background:var(--c)}
+.enter{display:inline-flex;align-items:center;gap:10px;background:#fff;color:#06403a;font-weight:700;font-size:18px;padding:14px 28px;border-radius:99px;text-decoration:none;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+header{background:color-mix(in srgb,var(--bg) 80%,transparent);backdrop-filter:blur(14px)}.hero{border-radius:24px;background:linear-gradient(135deg,var(--hero),var(--bg));box-shadow:0 12px 40px rgba(0,0,0,.25)}.box,.tile,.stats{border-radius:18px}
+#vc{position:fixed;right:10px;bottom:calc(70px + env(safe-area-inset-bottom,0px));z-index:120;font-size:11px;padding:3px 10px;border-radius:99px;background:color-mix(in srgb,var(--bg) 75%,transparent);backdrop-filter:blur(8px);border:1px solid var(--bd);color:var(--mut);display:none}#vc.on{display:block}
+@media(min-width:900px){#vc{bottom:12px}}body.entry #vc{bottom:calc(10px + env(safe-area-inset-bottom,0px));color:#fff;border-color:rgba(255,255,255,.3);background:rgba(0,0,0,.35)}
+.gold{color:#e9c767}.bism{text-align:center;font-family:"Amiri","Scheherazade New","Noto Naskh Arabic",serif;font-size:clamp(24px,6vw,38px);color:#f1d98a;text-shadow:0 0 24px rgba(233,199,103,.55);animation:bis 3s ease-out both}
+@keyframes bis{from{opacity:0;filter:blur(10px);letter-spacing:.25em}to{opacity:1;filter:blur(0);letter-spacing:0}}
+.verse{background:rgba(6,40,35,.55);backdrop-filter:blur(10px);border:1px solid rgba(233,199,103,.5);border-radius:18px;padding:12px 16px;margin-bottom:14px;max-width:520px;animation:vin 1s ease-out both}
+.verse .ar{font-family:"Amiri","Scheherazade New","Noto Naskh Arabic",serif;font-size:clamp(20px,5vw,28px);line-height:1.9;color:#f1d98a;direction:rtl;text-align:center}.verse .bn{font-size:14px;margin:4px 0}.verse .src{font-size:11px;color:#e9c767}
+@keyframes vin{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+#entry::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.14;background-image:var(--pat);animation:drift 40s linear infinite}@keyframes drift{to{background-position:240px 240px}}
+:root{--pat:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Cpath d='M40 6l8 18 18-8-8 18 18 8-18 8 8 18-18-8-8 18-8-18-18 8 8-18-18-8 18-8-8-18 18 8z' fill='none' stroke='%23e9c767' stroke-width='1.2'/%3E%3C/svg%3E")}
+#gate{position:fixed;inset:0;z-index:300;visibility:hidden;pointer-events:none;overflow:hidden}#gate.on{visibility:visible;pointer-events:auto}
+.door{position:absolute;top:0;bottom:0;width:50.5%;background:#05302a var(--pat);transition:transform 1s cubic-bezier(.7,0,.2,1)}.door.l{left:0;transform:translateX(-101%);border-right:3px solid #e9c767;box-shadow:6px 0 40px rgba(233,199,103,.4)}.door.r{right:0;transform:translateX(101%);border-left:3px solid #e9c767;box-shadow:-6px 0 40px rgba(233,199,103,.4)}
+#gate.close .door{transform:none}#gate.open .door.l{transform:translateX(-101%);transition-duration:1.5s}#gate.open .door.r{transform:translateX(101%);transition-duration:1.5s}
+.med{position:absolute;left:50%;top:50%;width:min(62vmin,340px);height:min(62vmin,340px);margin:calc(min(62vmin,340px)/-2) 0 0 calc(min(62vmin,340px)/-2);opacity:0;filter:drop-shadow(0 0 22px #e9c767);transition:opacity .8s .5s,transform 1.4s cubic-bezier(.6,0,.2,1)}
+#gate.close .med{opacity:1}#gate.close .med svg{animation:spin 6s linear infinite}#gate.open .med{opacity:0;transform:scale(3.2);transition:opacity 1.2s,transform 1.5s}@keyframes spin{to{transform:rotate(360deg)}}
+.glow{position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(233,199,103,.55),transparent 55%);opacity:0;transition:opacity 1s}#gate.close .glow{opacity:.9}#gate.open .glow{opacity:0;transition-duration:1.6s}
+@media(prefers-reduced-motion:reduce){#es img.on,.door,.med{transition:none!important;transform:none!important}#entry::after{animation:none}}
+</style></head><body class="entry">
+<div id="gate"><div class="glow"></div><div class="door l"></div><div class="door r"></div><div class="med"><svg viewBox="0 0 200 200" fill="none" stroke="#e9c767" stroke-width="2.5"><rect x="45" y="45" width="110" height="110"/><rect x="45" y="45" width="110" height="110" transform="rotate(45 100 100)"/><circle cx="100" cy="100" r="46"/><circle cx="100" cy="100" r="92" stroke-width="1.5"/><path d="M100 62a38 38 0 1 0 22 69a30 30 0 1 1 -22 -69z" fill="#e9c767" stroke="none"/></svg></div></div>
+<div id="vc" title="পেজটি কতজন দেখেছে"></div>
+<div id="entry"><div id="es"></div><div class="eo"><div class="elogo"><span class="drop"></span>OneDrop Blood Bank</div><div class="bism">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div><div class="ebot"><div class="ecap" id="ecap">কুমিল্লা জেলা দক্ষিণ</div><h1 style="font-size:clamp(26px,7vw,48px)">এক ব্যাগ রক্ত,<br>বাঁচাতে পারে একটি জীবন।</h1><div class="verse" id="verse"></div><div class="dots" id="edots"></div><a class="enter" href="#home" onclick="enterSite(event)">প্রবেশ করুন <span>→</span></a></div></div></div>
+<header><div class="logo"><span class="drop"></span><div>OneDrop Blood Bank<small>কুমিল্লা জেলা দক্ষিণ</small></div></div>
+<nav class="top" id="tn"><a href="#home">হোম</a><a href="#search">রক্তদাতা খুঁজুন</a><a href="#acts">আমাদের কার্যক্রম</a><a href="#about">পরিচিতি</a><a href="#thana">থানাসমূহ</a><a href="#contact">যোগাযোগ</a></nav><a class="pill reg" href="#reg">নিবন্ধন</a></header>
+<nav class="bot" id="bn"><a href="#home"><b>🏠</b>হোম</a><a href="#search"><b>🔍</b>দাতা খুঁজুন</a><a href="#acts"><b>📷</b>কার্যক্রম</a><a href="#thana"><b>🗺️</b>এলাকা</a><a href="#about"><b>👥</b>পরিচিতি</a></nav>
+<main>
+<div class="v" id="v-home"><div class="hero"><div id="slides"></div><small id="scap">রক্তের প্রয়োজনে, কুমিল্লা দক্ষিণ একসাথে</small><h1>জরুরি রক্ত প্রয়োজন?</h1><p>এক ব্যাগ রক্ত, বাঁচাতে পারে একটি জীবন। রক্তের গ্রুপ বেছে নিন — নিবন্ধিত দাতাদের মধ্যে থেকে কয়েক সেকেন্ডে খুঁজে নিন।</p><a class="btn" href="#search">রক্তদাতা খুঁজুন</a> <a class="btn o" href="#reg">রক্তদাতা হিসেবে নিবন্ধন করুন</a><p><b>গ্রুপ অনুযায়ী এখনই খুঁজুন</b></p><div class="tiles" id="tiles"></div></div>
+<div class="stats"><div><b id="s1">০</b><span>নিবন্ধিত রক্তদাতা</span></div><div><b id="s2">০</b><span>প্রস্তুত দাতা</span></div></div>
+<div class="adm" id="admBar" hidden><b>হিরো স্লাইডার (অ্যাডমিন)</b><div class="row"><input type="file" id="sf" accept="image/*"><input id="sc" placeholder="ক্যাপশন"><input id="sd" type="number" value="5" placeholder="সেকেন্ড"></div><button class="btn sm" onclick="addSlide()">ছবি যোগ করুন</button><div id="slist"></div></div>
+<h3>রক্তের গ্রুপ অনুযায়ী দাতা</h3><div class="box" id="bars"></div>
+<div class="box" style="margin-top:18px"><h3 style="margin:0">আপনার এক ব্যাগ রক্ত, একটি জীবন বাঁচাতে পারে।</h3><p class="sm" style="font-size:14px">১৮ থেকে ৬০ বছর বয়সী সুস্থ যে কেউ নিয়ম মেনে রক্ত দিতে পারেন। একবার নিবন্ধন করুন — আপনার ফোন নম্বর ঠিক করবেন আপনি, দেখানো হবে কি না।</p><a class="btn" href="#reg">রক্তদাতা হিসেবে নিবন্ধন করুন</a></div></div>
+
+<div class="v" id="v-search"><h2>রক্তদাতা খুঁজুন</h2><p class="sub">গ্রুপ ও এলাকা বেছে নিন। যাঁরা অনুমতি দিয়েছেন তাঁদের নম্বর দেখানো হয়, “কল করুন” চাপলেই ফোন হবে। বাকিদের “যোগাযোগ করুন” চাপলে অনুরোধ যাবে।</p>
+<div class="box"><label>রক্তের গ্রুপ</label><div class="chips" id="chips"></div><div class="row"><div><label>এলাকা</label><select id="ft"></select></div><div><label>ইউনিয়ন / ওয়ার্ড</label><select id="fu"><option value="">সব ইউনিয়ন</option></select></div><div><label>গ্রাম / এলাকা</label><input id="fv" placeholder="যেমন: বাজার"></div><div><label>উপলব্ধতা</label><select id="fa"><option value="">সব</option><option value="1">প্রস্তুত</option></select></div><div><label>সর্বশেষ রক্তদান</label><select id="fl"><option value="">যেকোনো সময়</option><option value="90">৩ মাসের বেশি আগে</option></select></div></div><button class="btn o sm" onclick="clr()">ফিল্টার মুছুন</button></div>
+<p id="dc" class="sm"></p><div id="dres" class="grid"></div></div>
+
+<div class="v" id="v-acts"><h2>আমাদের কার্যক্রম</h2><p class="sub">স্বেচ্ছায় রক্তদান · নিবন্ধন কর্মসূচি · সচেতনতা ক্যাম্পেইন · স্বেচ্ছাসেবী কার্যক্রম · সাংগঠনিক সভা · প্রশিক্ষণ · সামাজিক কার্যক্রম · বিশেষ দিবস</p>
+<div class="adm" id="aAdm" hidden><b>নতুন কার্যক্রম</b><div class="row"><input id="at" placeholder="শিরোনাম"><input id="ad" type="date"><input id="al" placeholder="স্থান"><input id="av" placeholder="ভিডিও লিংক (ঐচ্ছিক)"></div><textarea id="ax" placeholder="সংক্ষিপ্ত বিবরণ"></textarea><input type="file" id="ap" accept="image/*" multiple><button class="btn sm" onclick="addAct()">সংরক্ষণ</button></div><div id="alist" class="grid"></div></div>
+
+<div class="v" id="v-about"><h2>পরিচিতি</h2><div class="adm" id="mAdm" hidden><b>সদস্য যোগ</b><div class="row"><input id="mn" placeholder="পূর্ণ নাম"><select id="mr"><option value="chair">চেয়ারম্যান</option><option value="vice">ভাইস চেয়ারম্যান</option><option value="other">অন্যান্য</option></select><input id="md" placeholder="পদবি"><input id="mo" type="number" placeholder="ক্রম" value="1"><input id="mc" placeholder="যোগাযোগ (ঐচ্ছিক)"></div><textarea id="mb" placeholder="সংক্ষিপ্ত পরিচিতি"></textarea><input type="file" id="mp" accept="image/*"><button class="btn sm" onclick="addMem()">সংরক্ষণ</button></div>
+<div class="big" id="top"></div><h3>অন্যান্য পরিচিতি</h3><div class="grid" id="oth"></div></div>
+
+<div class="v" id="v-thana"><h2>এলাকা ও ইউনিয়নভিত্তিক দাতা তালিকা</h2><div class="adm" id="uAdm" hidden><b>ইউনিয়নের নাম যোগ করুন</b><select id="ru0"></select><textarea id="un" placeholder="প্রতি লাইনে একটি ইউনিয়ন/ওয়ার্ডের নাম"></textarea><button class="btn sm" onclick="addUn()">সংরক্ষণ</button></div><p class="sub">এলাকা বেছে নিলে ওই এলাকার দাতাদের তালিকা দেখতে পারবেন।</p><div class="grid" id="tl"></div></div>
+
+<div class="v" id="v-reg"><h2>রক্তদাতা নিবন্ধন</h2><p class="sub">আপনার ফোন নম্বর ঠিক করবেন আপনি, দেখানো হবে কি না।</p><div class="box"><div class="row"><input id="rn" placeholder="নাম"><input id="rp" type="tel" placeholder="মোবাইল (01XXXXXXXXX)"><select id="rg"></select><select id="rt"></select><select id="ru"><option value="">ইউনিয়ন</option></select><input id="rv" placeholder="গ্রাম / এলাকা"><div><label>সর্বশেষ রক্তদান</label><input id="rl" type="date"></div></div><label><input type="checkbox" id="rs" style="width:auto"> আমার নম্বর প্রকাশ্যে দেখানো যাবে</label><br><button class="btn" onclick="regDonor()">নিবন্ধন করুন</button> <span id="rm"></span></div></div>
+
+<div class="v" id="v-contact"><h2>যোগাযোগ</h2><div class="box">OneDrop Blood Bank, কুমিল্লা জেলা দক্ষিণ।<br>ফোন ও ঠিকানা অ্যাডমিন পরে যুক্ত করবেন।</div></div>
+</main>
+<footer><b>OneDrop Blood Bank</b> — এক ব্যাগ রক্ত, বাঁচাতে পারে একটি জীবন।<br>রক্তদানের আগে সুস্থতা ও বিরতির নিয়ম নিশ্চিত করতে চিকিৎসকের পরামর্শ নিন। এই ওয়েবসাইট চিকিৎসা সেবা নয়।<br><a href="#" id="adl" onclick="adminAuth();return false" style="color:inherit">অ্যাডমিন</a></footer>
+<div id="lb" onclick="this.style.display='none'"><div><img id="lbi"><p id="lbc"></p></div></div>
+<script src="config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.58.0/dist/umd/supabase.min.js"></script>
+<script src="supabase-shim.js"></script>
+<script>
+const T=["কুমিল্লা সিটি","আদর্শ সদর","সদর দক্ষিণ উপজেলা","লালমাই","নাঙ্গলকোট","লাকসাম","মনোহরগঞ্জ","চৌদ্দগ্রাম","বরুড়া","ব্রাহ্মণপাড়া","চান্দিনা","বুড়িচং"],G=["A+","A-","B+","B-","AB+","AB-","O+","O-"];
+const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])),bn=n=>String(n).replace(/\d/g,d=>"০১২৩৪৫৬৭৮৯"[d]);
+const col={visits:[],unions:[],slides:[],acts:[],mem:[],donors:[]};let db=null,assets=null,admin=false,si=0,st=null,fg="";
+const opt=(a,p)=>`<option value="">${p}</option>`+a.map(t=>`<option>${t}</option>`).join("");
+$("ft").innerHTML=opt(T,"সব এলাকা");$("rt").innerHTML=opt(T,"এলাকা");$("ru0").innerHTML=opt(T,"এলাকা");$("rg").innerHTML=opt(G,"রক্তের গ্রুপ");
+const V=[{a:"وَمَنْ أَحْيَاهَا فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعًا",b:"যে একজন মানুষের প্রাণ বাঁচাল, সে যেন সমগ্র মানবজাতিকেই বাঁচাল।",s:"আল-কুরআন, সূরা আল-মায়িদাহ ৫:৩২ (ভাবার্থ)"},{a:"وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ",b:"তোমরা নেক ও তাকওয়ার কাজে একে অপরকে সহযোগিতা করো।",s:"আল-কুরআন, সূরা আল-মায়িদাহ ৫:২ (ভাবার্থ)"},{a:"وَاللَّهُ فِي عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيهِ",b:"বান্দা যতক্ষণ তার ভাইয়ের সাহায্যে থাকে, আল্লাহ ততক্ষণ তার সাহায্যে থাকেন।",s:"হাদিস: সহীহ মুসলিম ২৬৯৯ (ভাবার্থ)"}];let vi=0;
+function setV(){const v=V[vi%V.length],e=$("verse");e.style.animation="none";e.offsetWidth;e.style.animation="";e.innerHTML=`<div class="ar">${v.a}</div><div class="bn">${v.b}</div><div class="src">${v.s}</div>`;vi++}
+setV();setInterval(setV,6500);
+function enterSite(e){e.preventDefault();const g=$("gate");if(matchMedia("(prefers-reduced-motion:reduce)").matches){location.hash="home";return}
+ g.className="on";g.offsetWidth;g.className="on close";setTimeout(()=>{location.hash="home"},1300);setTimeout(()=>{g.className="on open"},1700);setTimeout(()=>{g.className=""},3400)}
+let uid=null,vOnce=false;
+function renderVC(){const el=$("vc");if(!db){return}el.textContent="👁 "+bn(col.visits.length)+" জন দর্শক";el.classList.add("on");
+ if(uid&&!vOnce&&!col.visits.some(v=>v.id=="v"+uid)){vOnce=true;db.collection("visits").doc("v"+uid).set({t:Date.now()}).catch(()=>{})}}
+let ei=0,et=null;
+function renderEntry(){let L=[];col.acts.filter(a=>a.pub!==false).forEach(a=>(a.photos||[]).forEach(p=>L.push({u:blob(p),c:a.title})));
+ if(!L.length)L=col.slides.filter(s=>s.on!==false).map(s=>({u:src(s),c:s.cap}));
+ $("es").innerHTML=L.map((l,i)=>`<img src="${l.u}" class="${i?'':'on'}" onerror="this.remove()">`).join("");$("edots").innerHTML=L.slice(0,8).map((_,i)=>`<i class="${i?'':'on'}"></i>`).join("");
+ clearTimeout(et);ei=0;$("ecap").textContent=L[0]?.c||"কুমিল্লা জেলা দক্ষিণ";
+ const t=()=>{const im=$("es").children;if(im.length>1){im[ei].classList.remove("on");ei=(ei+1)%im.length;im[ei].classList.add("on");$("ecap").textContent=L[ei]?.c||"";[...$("edots").children].forEach((d,i)=>d.classList.toggle("on",i==ei%8))}et=setTimeout(t,4500)};if(L.length>1)et=setTimeout(t,4500)}
+function route(){const h0=location.hash.slice(1);document.body.classList.toggle("entry",!h0);const h=h0||"home";const id=document.getElementById("v-"+h)?h:"home";document.querySelectorAll(".v").forEach(v=>v.classList.toggle("on",v.id=="v-"+id));document.querySelectorAll("nav a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")=="#"+id));scrollTo(0,0)}
+addEventListener("hashchange",route);route();
+const avail=d=>d.ok!==false&&d.av!==false&&(!d.last||(Date.now()-new Date(d.last))/864e5>=90);
+function lb(u,c){$("lbi").src=u;$("lbc").textContent=c||"";$("lb").style.display="grid"}
+const src=r=>r.aid?blob(r.aid):"";
+function pick(g){fg=g;location.hash="search";renderD()}
+const uOf=a=>col.unions.filter(u=>u.area==a).map(u=>u.name);
+function fillU(ts,us){const v=$(us).value,a=$(ts).value;$(us).innerHTML='<option value="">ইউনিয়ন</option>'+uOf(a).map(n=>`<option>${n}</option>`).join("");$(us).value=v}
+$("ft").onchange=()=>{fillU("ft","fu");renderD()};$("rt").onchange=()=>fillU("rt","ru");
+async function addUn(){const a=$("ru0").value;if(!a)return alert("এলাকা বাছাই করুন");for(const n of $("un").value.split("\n").map(x=>x.trim()).filter(Boolean))await add("unions",{area:a,name:n});$("un").value=""}
+function pickU(t,u){$("ft").value=t;fillU("ft","fu");$("fu").value=u;location.hash="search";renderD()}
+function pickT(t){$("ft").value=t;location.hash="search";renderD()}
+function clr(){fg="";["ft","fu","fv","fa","fl"].forEach(i=>$(i).value="");renderD()}
+function renderHome(){const D=col.donors.filter(d=>d.ok!==false),A=D.filter(avail);
+ $("tiles").innerHTML=G.map(g=>`<button class="tile" onclick="pick('${g}')"><b>${g}</b><span>${bn(A.filter(d=>d.grp==g).length)} জন প্রস্তুত</span></button>`).join("");
+ $("s1").textContent=bn(D.length);$("s2").textContent=bn(A.length);
+ $("bars").innerHTML=G.map(g=>{const n=A.filter(d=>d.grp==g).length;return `<div class="bar"><b>${g}</b><i><u style="width:${A.length?n/A.length*100:0}%"></u></i><span>${bn(n)} জন প্রস্তুত</span></div>`}).join("");
+ $("tl").innerHTML=T.map(t=>{const n=D.filter(d=>d.thana==t).length;return `<div class="box"><span class="tag">এলাকা</span><b>${t}</b><div class="sm">মোট দাতা: ${bn(n)} · উপলব্ধ: ${bn(A.filter(d=>d.thana==t).length)}</div><div class="chips" style="margin:8px 0">${uOf(t).map(u=>`<button class="chip" onclick="pickU('${t}','${u}')">${u} (${bn(D.filter(d=>d.union==u&&d.thana==t).length)})</button>`).join("")||'<span class="sm">ইউনিয়নের নাম শিগগিরই যুক্ত হবে</span>'}</div><button class="btn o sm" onclick="pickT('${t}')">দাতাদের দেখুন</button></div>`}).join("")}
+function renderD(){$("chips").innerHTML=G.map(g=>`<button class="chip ${g==fg?'on':''}" onclick="pick('${g}')">${g}</button>`).join("");
+ const t=$("ft").value,v=$("fv").value.trim(),a=$("fa").value,l=$("fl").value;
+ const r=col.donors.filter(d=>d.ok!==false&&(!fg||d.grp==fg)&&(!t||d.thana==t)&&(!$("fu").value||d.union==$("fu").value)&&(!v||(d.vill||"").includes(v))&&(!a||avail(d))&&(!l||!d.last||(Date.now()-new Date(d.last))/864e5>=90));
+ $("dc").textContent=bn(r.length)+" জন রক্তদাতা পাওয়া গেছে";
+ $("dres").innerHTML=r.length?r.map(d=>`<div class="box"><span class="tag">${avail(d)?"প্রস্তুত":"বিরতিতে"}</span><b>${esc(d.name)}</b> <span style="color:var(--c);font-weight:700">${esc(d.grp)}</span><div class="sm">${esc(d.thana)}${d.union?" · "+esc(d.union):""} · ${esc(d.vill)}</div>${d.show?`<a class="btn sm" href="tel:${esc(d.phone)}">কল করুন</a>`:`<button class="btn o sm" onclick="contact('${d.id}')">যোগাযোগ করুন</button>`}${admin?` <button class="btn x sm" onclick="del('donors','${d.id}')">মুছুন</button>`:""}</div>`).join(""):'<div class="empty" style="grid-column:1/-1">এই শর্তে কোনো দাতা নেই। অন্য এলাকা বা গ্রুপ চেষ্টা করুন।</div>'}
+["fu","fv","fa","fl"].forEach(i=>$(i).oninput=renderD);
+function renderSlides(){const a=col.slides.filter(s=>s.on!==false).sort((x,y)=>x.ord-y.ord);
+ $("slides").innerHTML=a.map((s,i)=>`<img src="${src(s)}" alt="${esc(s.cap)}" class="${i?'':'on'}" onerror="this.remove()">`).join("");
+ clearTimeout(st);si=0;const tick=()=>{const im=$("slides").children;if(im.length>1){im[si].classList.remove("on");si=(si+1)%im.length;im[si].classList.add("on");$("scap").textContent=a[si]?.cap||"";st=setTimeout(tick,(a[si]?.dur||5)*1000)}};
+ if(a[0]?.cap)$("scap").textContent=a[0].cap;if(a.length>1)st=setTimeout(tick,(a[0].dur||5)*1000);
+ $("slist").innerHTML=admin?col.slides.sort((x,y)=>x.ord-y.ord).map(s=>`<div class="box" style="display:flex;gap:6px;align-items:center;margin-top:8px"><img src="${src(s)}" style="width:50px;aspect-ratio:1;cursor:auto"><input value="${esc(s.cap)}" onchange="upd('slides','${s.id}',{cap:this.value})"><input type="number" style="width:60px" value="${s.dur||5}" onchange="upd('slides','${s.id}',{dur:+this.value})"><button class="btn sm" onclick="upd('slides','${s.id}',{on:${s.on===false}})">${s.on===false?'চালু':'বন্ধ'}</button><button class="btn sm" onclick="mv('${s.id}',-1)">↑</button><button class="btn sm" onclick="mv('${s.id}',1)">↓</button><button class="btn x sm" onclick="del('slides','${s.id}')">✕</button></div>`).join(""):""}
+function renderActs(){const a=col.acts.filter(x=>admin||x.pub!==false).sort((x,y)=>(y.date||"").localeCompare(x.date||""));
+ $("alist").innerHTML=a.length?a.map(x=>`<div class="box">${x.photos?.length?`<img src="${blob(x.photos[x.cover||0])}" loading="lazy" onclick='openAct("${x.id}")'>`:'<div class="ph">🩸</div>'}<b>${esc(x.title)}</b><div class="sm">${esc(x.date)} · ${esc(x.loc)}</div><p>${esc(x.desc)}</p>${x.video?`<a href="${esc(x.video)}" target="_blank" rel="noopener">ভিডিও দেখুন</a>`:""}${admin?`<br><button class="btn sm" onclick="upd('acts','${x.id}',{pub:${x.pub===false}})">${x.pub===false?'প্রকাশ':'অপ্রকাশিত'}</button> <button class="btn x sm" onclick="del('acts','${x.id}')">মুছুন</button>`:""}</div>`).join(""):'<div class="empty" style="grid-column:1/-1">আমাদের কার্যক্রমের ছবি শিগগিরই যুক্ত করা হবে।</div>'}
+function openAct(id){const x=col.acts.find(a=>a.id==id);let i=0;const show=()=>lb(blob(x.photos[i]),x.title);show();$("lbi").onclick=e=>{e.stopPropagation();i=(i+1)%x.photos.length;show()}}
+function memCard(m,label){return `<div class="box">${m&&m.aid?`<img src="${src(m)}" style="cursor:auto">`:'<div class="ph">👤</div>'}<b>${m?esc(m.name):label}</b><div style="color:var(--c)">${m?esc(m.role=="chair"?"চেয়ারম্যান":m.role=="vice"?"ভাইস চেয়ারম্যান":m.desig):label}</div>${m?`<p>${esc(m.bio)}</p><div class="sm">${esc(m.contact)}</div>${admin?`<button class="btn x sm" onclick="del('mem','${m.id}')">মুছুন</button>`:""}`:'<p class="sm">তথ্য পরবর্তীতে যুক্ত করা হবে</p>'}</div>`}
+function renderMem(){const a=col.mem.filter(m=>admin||m.on!==false).sort((x,y)=>x.ord-y.ord);
+ $("top").innerHTML=memCard(a.find(m=>m.role=="chair"),"চেয়ারম্যান")+memCard(a.find(m=>m.role=="vice"),"ভাইস চেয়ারম্যান");
+ const o=a.filter(m=>m.role=="other");$("oth").innerHTML=o.length?o.map(m=>memCard(m)).join(""):'<div class="empty" style="grid-column:1/-1">তথ্য পরবর্তীতে যুক্ত করা হবে</div>'}
+const R={visits:()=>renderVC(),unions:()=>{fillU("ft","fu");fillU("rt","ru");renderHome()},slides:()=>{renderSlides();renderEntry()},acts:()=>{renderActs();renderEntry()},mem:renderMem,donors:()=>{renderD();renderHome()}};
+const up=async f=>(await assets.upload(f)).id;
+const add=(c,d)=>db.collection(c).doc("i"+Date.now()+Math.random().toString(36).slice(2,5)).set(d);
+const upd=(c,id,d)=>db.collection(c).doc(id).update(d),del=(c,id)=>confirm("মুছে ফেলবেন?")&&db.collection(c).doc(id).delete();
+async function addSlide(){const f=$("sf").files[0];if(!f)return alert("ছবি বাছাই করুন");await add("slides",{aid:await up(f),cap:$("sc").value,dur:+$("sd").value||5,on:true,ord:Date.now()});$("sf").value=""}
+async function mv(id,d){const a=col.slides.sort((x,y)=>x.ord-y.ord),i=a.findIndex(s=>s.id==id),j=i+d;if(j<0||j>=a.length)return;await upd("slides",a[i].id,{ord:a[j].ord});await upd("slides",a[j].id,{ord:a[i].ord})}
+async function addAct(){const p=[];for(const f of [...$("ap").files])p.push(await up(f));await add("acts",{title:$("at").value,date:$("ad").value,loc:$("al").value,video:$("av").value,desc:$("ax").value,photos:p,cover:0,pub:true});$("at").value=$("ax").value="";$("ap").value=""}
+async function addMem(){const f=$("mp").files[0];await add("mem",{name:$("mn").value,role:$("mr").value,desig:$("md").value,ord:+$("mo").value,contact:$("mc").value,bio:$("mb").value,aid:f?await up(f):"",on:true});$("mn").value=$("mb").value=""}
+async function regDonor(){const d={name:$("rn").value.trim(),phone:$("rp").value.trim(),grp:$("rg").value,thana:$("rt").value,union:$("ru").value,vill:$("rv").value.trim(),last:$("rl").value,show:$("rs").checked,av:true,ok:true};
+ if(!d.name||!/^01\d{9}$/.test(d.phone)||!d.grp||!d.thana)return $("rm").textContent="সব তথ্য সঠিকভাবে দিন (মোবাইল ইংরেজি সংখ্যায়)।";
+ if(!db)return $("rm").textContent="নিবন্ধনের জন্য সাইন-ইন প্রয়োজন।";
+ try{await add("donors",d);$("rm").textContent="ধন্যবাদ! নিবন্ধন সম্পন্ন হয়েছে।"}catch(e){$("rm").textContent="নিবন্ধন করা যায়নি।"}}
+async function contact(id){if(!db)return alert("সাইন-ইন প্রয়োজন");try{await add("contacts",{donor:id,at:Date.now()});alert("অনুরোধ পাঠানো হয়েছে।")}catch(e){alert("পাঠানো যায়নি")}}
+Object.values(R).forEach(f=>f());
+(async()=>{try{const u=await claude.use("user");admin=!!(u&&u.canEdit());try{uid=u?String(await u.id()).replace(/[^\w-]/g,""):null}catch(e){}db=await claude.use("db");assets=await claude.use("assets")}catch(e){}
+ ["admBar","aAdm","mAdm","uAdm"].forEach(i=>$(i).hidden=!admin);
+ if(db)for(const c in col)db.collection(c).onSnapshot(s=>{col[c]=s.docs.map(d=>({id:d.id,...d.data()}));R[c]()})})();
+</script></body></html>
